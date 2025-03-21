@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/xpyre-ub /CID.git'
+                git 'https://github.com/xpyre-ub/CID.git'
             }
         }
         stage('Build') {
